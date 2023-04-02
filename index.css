@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+.card{
+    margin: 5px;
+    border: 1px solid skyblue;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 80px;
+    
+}
+select{
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #0d6efd;
+    padding: 5px;
+    color:white;
+}
