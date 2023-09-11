@@ -6,6 +6,7 @@ let select2 = document.getElementById("sel2");
 //this function triger by first <select> event===> change 
 function change() {
     selected_value = select.value;
+secondSelect();
 }
 
 
