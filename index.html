@@ -12,12 +12,14 @@
     <h1>emoji <mark style="background-color: orange; border-radius: 15px; color: white;">hub</mark></h1>
     
     
-    <select name="" id="sel" onchange="change()" defaultvalue="Select Category">
-    </select>
-    
-    
-    <select name="" id="sel2" onchange="change()" defaultvalue="Select Group">
-    </select>
+   <select name="category" id="sel" onchange="changeCategory()">
+    <option value="default">Select Category</option>
+</select>
+
+<select name="group" id="sel2" onchange="changeGroup()">
+    <option value="default">Select Group</option>
+</select>
+
     
     <script src="index.js"></script>
 </body>
